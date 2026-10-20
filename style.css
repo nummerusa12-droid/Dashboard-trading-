@@ -1,0 +1,16 @@
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;background:radial-gradient(circle at 20% 0,#1b2240,#0a0d18 60%);color:#e6e9f5;min-height:100vh;padding:24px}
+.banner{background:linear-gradient(90deg,#f59e0b,#ef4444);color:#111;font-weight:700;text-align:center;padding:10px;border-radius:12px;margin-bottom:18px;letter-spacing:.5px}
+.hidden{display:none}header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+h1{margin:0;font-size:28px}h1 span{background:linear-gradient(90deg,#22d3ee,#a78bfa);-webkit-background-clip:text;color:transparent}
+h2{margin:0 0 12px;font-size:15px;color:#9aa3c7;text-transform:uppercase;letter-spacing:1px}.muted{color:#7d86a8;font-size:13px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:16px}
+.kpi,.card,.bot{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:18px;backdrop-filter:blur(8px)}
+.kpi .l{color:#9aa3c7;font-size:13px}.kpi .v{font-size:26px;font-weight:700;margin-top:6px}
+.pos{color:#22c55e}.neg{color:#ef4444}.card{margin-bottom:16px}canvas{width:100%}
+.bots{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-bottom:16px}
+.bot{position:relative;overflow:hidden}.bot::before{content:"";position:absolute;inset:-50%;background:conic-gradient(from 0deg,transparent,rgba(167,139,250,.25),transparent 30%);animation:spin 6s linear infinite}
+.bot>*{position:relative}.bot .n{font-size:18px;font-weight:700}.dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:6px;animation:pulse 1.6s infinite}
+@keyframes spin{to{transform:rotate(360deg)}}@keyframes pulse{50%{opacity:.3}}
+.grid2{display:grid;grid-template-columns:1fr 1.4fr;gap:16px}table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;color:#7d86a8;font-weight:500;padding:6px}td{padding:8px 6px;border-top:1px solid rgba(255,255,255,.06)}
+@media(max-width:800px){.kpis{grid-template-columns:1fr 1fr}.grid2{grid-template-columns:1fr}}

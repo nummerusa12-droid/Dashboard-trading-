@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trading Dashboard</title><link rel="stylesheet" href="style.css"></head><body>
+<div id="banner" class="banner hidden">⚠️ Beispieldaten – keine echten Trades</div>
+<header><h1>📈 Trading <span>Dashboard</span></h1><div id="upd" class="muted"></div></header>
+<section class="kpis">
+ <div class="kpi"><div class="l">Kontostand</div><div class="v" id="k-bal">–</div></div>
+ <div class="kpi"><div class="l">Gewinn/Verlust gesamt</div><div class="v" id="k-pnl">–</div></div>
+ <div class="kpi"><div class="l">Gewinn/Verlust heute</div><div class="v" id="k-today">–</div></div>
+ <div class="kpi"><div class="l">Trefferquote</div><div class="v" id="k-win">–</div></div>
+</section>
+<section class="card"><h2>Kontostand-Verlauf</h2><canvas id="chart" height="220"></canvas></section>
+<section class="bots" id="bots"></section>
+<section class="grid2">
+ <div class="card"><h2>Offene Positionen</h2><table id="pos"></table></div>
+ <div class="card"><h2>Letzte Trades</h2><table id="trades"></table></div>
+</section>
+<script src="app.js"></script></body></html>
