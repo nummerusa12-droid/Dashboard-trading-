@@ -1,0 +1,36 @@
+{
+  "beispieldaten": false,
+  "waehrung": "EUR",
+  "aktualisiert": "2026-10-20T20:10:44+02:00",
+  "startkapital": 200.0,
+  "kontostand": 199.98,
+  "pnl_heute": 0.0,
+  "verlauf": [
+    {
+      "zeit": "2026-10-20T20:10:21+02:00",
+      "kontostand": 199.98
+    },
+    {
+      "zeit": "2026-10-20T20:10:44+02:00",
+      "kontostand": 199.98
+    }
+  ],
+  "positionen": [],
+  "trades": [],
+  "bots": [
+    {
+      "name": "Bitvavo Paper-Bot (Simulation)",
+      "status": "aktiv",
+      "modus": "Paper-Trading (Simulation, kein echtes Geld)",
+      "letzte_aktion": "Warten auf SMA-20/50-Kreuzung (noch kein Trade)",
+      "zeit": "2026-10-20T19:09:05+02:00"
+    },
+    {
+      "name": "Trading 212 DEMO",
+      "status": "aktiv",
+      "modus": "Demo-Konto (Spielgeld)",
+      "letzte_aktion": "Offene Orders: BUY EUNLd_EQ 0.5366 (NEW), BUY IS3Nd_EQ 0.35 (NEW), BUY IB1Td_EQ 1.15 (NEW)",
+      "zeit": "2026-10-20T19:31:57+02:00"
+    }
+  ]
+}

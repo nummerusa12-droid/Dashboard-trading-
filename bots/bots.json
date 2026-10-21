@@ -1,0 +1,27 @@
+{"gruppen":[
+{"id":"haupt","name":"Haupt","farbe":"#a78bfa","bots":[
+{"name":"Grok Bot","emoji":"🤖","status":"aktiv","beschreibung":"Dein Hauptassistent – baut Bots, recherchiert und koordiniert alles.","macht":"Baut gerade deine Bot-Übersicht"}]},
+{"id":"geld","name":"Geld & Investieren","farbe":"#34d399","bots":[
+{"name":"Trading-Bot","emoji":"📈","status":"aktiv","beschreibung":"Baut deinen Krypto- und Aktien-Bot – erst mit Spielgeld (Paper-Trading).","macht":"Wartet auf das nächste Handelssignal","spielgeld":true},
+{"name":"Invest-Berater","emoji":"💶","status":"bereit","beschreibung":"ETF-Sparpläne, Broker-Vergleich und Analysen für dich.","macht":"Bereit für deine nächste Frage"},
+{"name":"Depot-Wächter","emoji":"🛡️","status":"aktiv","beschreibung":"Behält deine Watchlist im Blick, schickt Alarme und eine Wochenübersicht.","macht":"Beobachtet deine Watchlist"},
+{"name":"Fomo Live Bot","emoji":"🔥","status":"aktiv","beschreibung":"Kopiert stündlich die FOMO-Trader mit Spielgeld – echt erst nach deinem „go live“.","macht":"Stündlicher Paper-Check"}]},
+{"id":"mod","name":"Mod-Team","farbe":"#60a5fa","bots":[
+{"name":"Mod-Builder","emoji":"🛠️","status":"aktiv","lead":true,"beschreibung":"Baut deine Spiele-Mods und leitet das Mod-Team.","macht":"Plant die nächsten Chaos-Features"},
+{"name":"Mod-Scout","emoji":"🔭","status":"bereit","beschreibung":"Recherchiert, was beim Modding möglich ist.","macht":"Sucht Modding-Möglichkeiten"},
+{"name":"Mod-Doktor","emoji":"🩺","status":"bereit","beschreibung":"Kümmert sich um Abstürze und Kompatibilität.","macht":"Wartet auf Crash-Logs"},
+{"name":"Mod-Designer","emoji":"🎨","status":"bereit","beschreibung":"Macht Texturen, Icons und Logos.","macht":"Skizziert Icons"},
+{"name":"Mod-Publisher","emoji":"🚀","status":"bereit","beschreibung":"Veröffentlicht auf Modrinth, CurseForge, Nexus und Steam.","macht":"Bereitet Release-Seiten vor"}]},
+{"id":"etsy","name":"Etsy-Team","farbe":"#fb923c","bots":[
+{"name":"Etsy-Planner-Team","emoji":"🗂️","status":"aktiv","beschreibung":"Erstellt ADHS-Planer als Printables für Etsy.","macht":"Koordiniert das Etsy-Team"},
+{"name":"Etsy-Scout","emoji":"🔎","status":"bereit","beschreibung":"Keyword-Recherche: wonach Käufer wirklich suchen.","macht":"Sammelt Keywords"},
+{"name":"Listing-Optimizer","emoji":"🏷️","status":"bereit","beschreibung":"Optimiert Titel und Tags deiner Listings.","macht":"Feilt an Titeln und Tags"},
+{"name":"Planner-Writer","emoji":"✍️","status":"bereit","beschreibung":"Schreibt die Texte für deine Planer-Seiten.","macht":"Textet Planer-Seiten"}]},
+{"id":"alltag","name":"Community & Alltag","farbe":"#f472b6","bots":[
+{"name":"Discord-Manager","emoji":"💬","status":"aktiv","beschreibung":"Discord-Admin für deine Roblox-Community.","macht":"Hält den Server in Ordnung"},
+{"name":"Mail-Assistent","emoji":"📬","status":"aktiv","beschreibung":"Sortiert Mails, entwirft Antworten und legt Termine an.","macht":"Sortiert dein Postfach"},
+{"name":"Konnektor-Manager","emoji":"🔌","status":"bereit","beschreibung":"Verbindet deine Dienste und Apps.","macht":"Prüft Verbindungen"},
+{"name":"China-Reiseplaner","emoji":"🐉","status":"bereit","beschreibung":"Plant die Osterreise 2027 für 3 Personen.","macht":"Vergleicht Flüge MUC–Shanghai"},
+{"name":"Deal Hunting","emoji":"🛒","status":"bereit","beschreibung":"Findet echte Endpreise inkl. Versand – kauft nie selbst.","macht":"Wartet auf deinen Suchauftrag"},
+{"name":"Chief Health","emoji":"💪","status":"bereit","beschreibung":"Täglicher Check-in zu deinem Training.","macht":"Wartet auf den Trainings-Check-in"}]}
+]}

@@ -1,0 +1,17 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Segoe UI,sans-serif;background:radial-gradient(circle at 20% 0,#1e1b4b,#0b0b14 60%);color:#e5e7eb;min-height:100vh}
+header{text-align:center;padding:40px 16px 10px}h1{font-size:2.6rem;margin:0}h1 span{background:linear-gradient(90deg,#a78bfa,#f472b6,#34d399);-webkit-background-clip:text;color:transparent}
+header p{color:#9ca3af}#stats{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.stat{background:#ffffff0d;border:1px solid #ffffff1a;padding:8px 16px;border-radius:999px;font-size:.9rem}
+main{max-width:1200px;margin:auto;padding:16px}.gruppe h2{display:flex;align-items:center;gap:10px;font-size:1.2rem;margin:28px 0 12px}.gruppe h2 i{width:10px;height:10px;border-radius:50%;background:var(--c);box-shadow:0 0 12px var(--c)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.card{position:relative;background:linear-gradient(160deg,#ffffff10,#ffffff05);border:1px solid color-mix(in srgb,var(--c) 40%,transparent);border-radius:18px;padding:18px;cursor:pointer;transition:.3s;box-shadow:0 0 22px -8px var(--c);animation:in .6s both}
+.card:hover{transform:translateY(-4px);box-shadow:0 0 34px -4px var(--c)}@keyframes in{from{opacity:0;transform:translateY(16px)}}
+.top{display:flex;gap:14px;align-items:center}.ava{position:relative;width:62px;height:62px;border-radius:50%;display:grid;place-items:center;font-size:30px;background:radial-gradient(circle,color-mix(in srgb,var(--c) 45%,transparent),transparent 70%);animation:breathe 3.2s ease-in-out infinite}
+.ava::before,.ava::after{content:"";position:absolute;top:8px;width:7px;height:7px;background:#fff;border-radius:50%;animation:blink 4s infinite}.ava::before{left:20px}.ava::after{right:20px}
+@keyframes breathe{50%{transform:scale(1.08)}}@keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+.name{font-weight:700;font-size:1.05rem}.lead{font-size:.7rem;background:var(--c);color:#111;padding:1px 6px;border-radius:6px;margin-left:6px}
+.pill{display:inline-flex;align-items:center;gap:5px;font-size:.72rem;padding:2px 9px;border-radius:999px;margin-top:4px;background:#ffffff12}.pill b{width:7px;height:7px;border-radius:50%;background:#facc15}.pill.aktiv b{background:#22c55e;animation:pulse 1.6s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 5px #22c55e33}}
+.desc{color:#cbd5e1;font-size:.9rem;margin:12px 0 8px}.macht{font-size:.8rem;color:#9ca3af}.macht em{color:var(--c);font-style:normal}
+.geld{margin-top:10px;font-weight:700;color:#34d399}.geld small{color:#9ca3af;font-weight:400}
+.det{max-height:0;overflow:hidden;transition:max-height .4s;font-size:.83rem;color:#cbd5e1}.card.open .det{max-height:200px;margin-top:10px;border-top:1px solid #ffffff1a;padding-top:10px}
+footer{text-align:center;color:#6b7280;font-size:.8rem;padding:30px}
